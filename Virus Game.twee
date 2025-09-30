@@ -1,0 +1,102 @@
+:: StoryTitle
+Virus Game
+
+
+:: StoryData
+{
+  "ifid": "BA06171A-FB7F-4E8F-944F-C58F632BDF59",
+  "format": "SugarCube",
+  "format-version": "2.37.3",
+  "start": "Introduction",
+  "tag-colors": {
+    "blue": "blue"
+  },
+  "zoom": 1
+}
+
+
+:: Browser1 {"position":"975,675","size":"100,100"}
+The second you even take a peek into the search history, you're hit with large strings of texts. These area almost on a paragraph level. Your user doesn't just search "how to make a pie" or "best places to eat", no, your user gives so much context to the searches that it is almost comical. For example,
+
+"how to make a cake for my cousin's 4th birthday party except without any chocolate because he hates chocolate and also he's allergic to dairy so make them dairy free please and thank you"
+
+Your user thinks his search engine is sentient. It's like he thinks there's a person dedicating hours of their day to answer hundreds upon thousands of searches every single day. The mindset is almost sickeningly sweet. Your user would be thrilled if he were given the chance to talk to you.
+
+[[Look at frequently visited websites. |Browser2]]
+
+
+:: Browser2 {"position":"975,800","size":"100,100"}
+
+
+
+:: Hub1 {"position":"825,550","size":"100,100"}
+Ignoring the treasure trove of personal information, you decide your efforts are best spent elsewhere.  
+
+[[Look at browser history. |Browser1]]
+[[Look at computer settings. |Settings1]]
+
+
+:: Hub2 {"position":"1100,550","size":"100,100"}
+You've successfully depleted the personal information folder for all of its natural resources. What a true pioneer you are! How good is a pioneer if he doesn't look for more worlds to conquer? 
+
+[[Look at browser history. |Browser1]]
+[[Look at computer settings. |Settings1]]
+[[Send personal family information to other users.|Power1]]
+
+
+:: Introduction {"position":"725,300","size":"100,100"}
+Nobody is stupid enough to download something from a giant banner that reads "FREE VIRUS - DOWNLOAD NOW FREE". Nobody except your new user. 
+
+You're not dangerous-- not yet. You don't know this person yet. You need information. Luckily for you, your new user has all of their personal information laid out in a folder titled "Private Information". 
+
+Inside the folder, there are multiple images of your user. He looks young, perhaps a freshman in college. He has a big, dorky smile, and the light in his eyes hasn't yet faded. He doesn't seem to be aware of how evil the world is, or understand the harm you could cause.
+
+[[Snoop around in the folder some more.|Snoop1]]
+[[Look somewhere else. |Hub1]]
+
+
+:: Power1 {"position":"1225,675","size":"100,100"}
+sell information gain power
+route from here gives ability to communicate with user through text files
+can also now search things on the web and create facebook posts and send emails
+this might also be able to be obtained later
+
+
+:: Settings1 {"position":"1100,675","size":"100,100"}
+write this good later:
+-computer name Joe's computer
+-wifi name: joe's wifi
+-light mode user
+-lots of free storage
+
+
+:: Snoop1 {"position":"650,550","size":"100,100"}
+Deeper into the folder, hidden underneath all of the family photos, lies every single password your user has. All 4 of them, stored into one text file.
+
+''Computer Password: important123''
+
+''Email and Password: myemail22@gmail.com Password 321important''
+
+''Job Login Password: jv8714''
+
+''Facebook email and password: myemail22@gmail.com Password: ilovemyfamily231''
+
+You probably could've guessed any of these passwords if you were given the chance. They're not very complex.
+
+[[Go deeper. Find more. |Snoop2]]
+[[That's enough for now.|Hub1]]
+
+
+:: Snoop2 {"position":"650,700","size":"100,100"}
+Even deeper into the files, you find a different text file titled "SUPER FAMILY SECRET DO NOT OPEN". This guy really isn't good at making things discreet. When you open the file, you notice a large christmas list for all of your user's family members:
+
+* Mom: New bed for the dogs (also get her some candles, maybe?)
+* Dad: He says he doesn't want anything
+* Sandy: more fabric for sewing machine (she doesn't like wooly textures so don't make that same mistake twice)
+* Chris: New Hot Wheels track and some more cars. Specifically the new Oiram Racing track that just came out.
+
+This poor soul is giving you private information about his family members and he doesn't even know it. 
+
+There doesn't seem to be anything else in the folder.
+
+[[Snoop somewhere else.|Hub2]]
