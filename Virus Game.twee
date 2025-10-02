@@ -11,7 +11,7 @@ Virus Game
   "tag-colors": {
     "blue": "blue"
   },
-  "zoom": 1
+  "zoom": 0.6
 }
 
 
@@ -23,10 +23,45 @@ The second you even take a peek into the search history, you're hit with large s
 Your user thinks his search engine is sentient. It's like he thinks there's a person dedicating hours of their day to answer hundreds upon thousands of searches every single day. The mindset is almost sickeningly sweet. Your user would be thrilled if he were given the chance to talk to you.
 
 [[Look at frequently visited websites. |Browser2]]
+[[Would he treat me like a person, too?|Friend1]]
+
 
 
 :: Browser2 {"position":"975,800","size":"100,100"}
-efsigulsfdgyuildsfguiesfuogesgfuoglegshulgesroih
+Your user
+
+
+:: Chat {"position":"1225,925","size":"100,100"}
+In an attempt to get the user's attention, with the little bit of power you've gained, you summon a bunch of pop ups, while wrestiling with the antivirus you manage to get a notepad window up, with the words as follows:
+
+Hello? 
+I need your help!
+Turn this Thing off!
+
+Through the laptop webcam you see the user scramble lurch for the power butto-
+
+you've been [[erased?|Reboot1]]
+
+
+:: Control Panel 1 {"position":"1100,800","size":"100,100"}
+Bad idea, bad, bad idea. That tripped the Antivirus up immediately!
+
+You need a way to hide... wait inside of a computer? No, you have to do something much worse, you have to... //Interact// with the user.
+
+It's risky, but otherwise you're going to be erased.
+
+
+[[Take the risk. |Chat]]
+
+
+:: Disc Storage {"position":"1100,925","size":"100,100"}
+
+
+
+:: Erasure1 {"position":"1225,1175","size":"100,100"}
+Unfortunately for you you don't have Kernel-level access yet, but the antivirus does, it immediately takes advantage of your state and disables your processes, dropping you into quarantine for deletion
+
+[You've been erased.]
 
 
 :: Hub1 {"position":"825,550","size":"100,100"}
@@ -37,7 +72,7 @@ Ignoring the treasure trove of personal information, you decide your efforts are
 
 
 :: Hub2 {"position":"1100,550","size":"100,100"}
-You've successfully depleted the personal information folder for all of its natural resources. What a true pioneer you are! How good is a pioneer if he doesn't look for more worlds to conquer? 
+You've successfully depleted the personal information folder for all of its natural resources. What a true pioneer you are! Although- what good is a pioneer if he doesn't look for more worlds to conquer? 
 
 [[Look at browser history. |Browser1]]
 [[Look at computer settings. |Settings1]]
@@ -54,12 +89,71 @@ Inside the folder, there are multiple images of your user. He looks young, perha
 [[Snoop around in the folder some more.|Snoop1]]
 [[Look somewhere else. |Hub1]]
 
+<<<<<<< Updated upstream
+
+
 
 :: Power1 {"position":"1225,675","size":"100,100"}
-sell information gain power!!
+sell information gain power
 route from here gives ability to communicate with user through text files
 can also now search things on the web and create facebook posts and send emails
 this might also be able to be obtained later
+
+
+:: Power1 {"position":"1225,675","size":"100,100"}
+All of this juicy information you have //needs// to be shared! If your user is willing to hide it so poorly, then he's just //begging// to have it shared around to all of your other virus servers. Even if they don't quite understand the data like you do, they'll still find a way to appreciate it. 
+
+With a simple click, a simple little motion, the information is out there. The data is in a serverhouse: M.V likes to knit, Chris likes toy cars, and there's all of your user's login information! 
+
+The only acknowledgment of your hard work comes in the form of a single signal.
+
+**RECEIVED**
+
+That's it. And just like that, it's gone.
+
+[[You feel stronger.| Power2]]
+
+
+
+:: Reboot {"position":"1225,1050","size":"100,100"}
+BIOS ACTIVATING
+REBOOTING
+you only have a few seconds but you do have options
+
+[[Attempt to run in safe mode|Erasure1]]
+
+
+
+:: Reboot1 {"position":"1350,1050","size":"100,100"}
+
+
+
+:: Settings1 {"position":"1100,675","size":"100,100"}
+You attempt to pull up the PC name
+.
+.
+.
+Success, You're in! 
+wait a sec, the PC took that long to load Specs?
+
+let's see here...
+
+Computer Name: Dell Latitude 3190
+Processor: Intel Celeron 4 Core
+Installed Ram: 8 GB
+Graphics: Intel UHD graphics 600
+Storage: 128
+
+That explains it, this laptop is from an era before you could even 💀 at it's age and have it mean anything.
+ the only thing that might be worth your attention right now is their massive reserve of unused storage.
+Or... you could try to get into the control panel?
+
+[[Disc Storage]]
+[[Control Panel|Control Panel 1]]
+[[personalization]]
+
+
+
 
 
 :: Settings1 {"position":"1100,675","size":"100,100"}
@@ -72,6 +166,13 @@ write this good later:
 
 :: Snoop1 {"position":"650,550","size":"100,100"}
 Deeper into the folder, hidden underneath all of the family photos, lies every single password your user has. All 4 of them, stored into one text file.
+=======
+
+
+
+:: Snoop1 {"position":"650,550","size":"100,100"}
+Deeper into the folder, hidden underneath all of the family photos, lies every single password your user has. All 4 of them, stored into one text file.
+>>>>>>> Stashed changes
 
 ''Computer Password: important123''
 
@@ -99,4 +200,9 @@ This poor soul is giving you private information about his family members and he
 
 There doesn't seem to be anything else in the folder.
 
+<<<<<<< Updated upstream
 [[Snoop somewhere else.|Hub2]]
+
+
+:: personalization {"position":"1225,800","size":"100,100"}
+
