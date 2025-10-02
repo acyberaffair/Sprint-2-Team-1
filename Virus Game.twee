@@ -26,7 +26,6 @@ Your user thinks his search engine is sentient. It's like he thinks there's a pe
 [[Would he treat me like a person, too?|Friend1]]
 
 
-
 :: Browser2 {"position":"975,800","size":"100,100"}
 Your user
 
@@ -64,6 +63,10 @@ Unfortunately for you you don't have Kernel-level access yet, but the antivirus 
 [You've been erased.]
 
 
+:: Friend1 {"position":"975,925","size":"100,100"}
+
+
+
 :: Hub1 {"position":"825,550","size":"100,100"}
 Ignoring the treasure trove of personal information, you decide your efforts are best spent elsewhere.  
 
@@ -92,15 +95,90 @@ Inside the folder, there are multiple images of your user. He looks young, perha
 <<<<<<< Updated upstream
 
 
+:: PBrowser1 {"position":"2075,875","size":"100,100"}
+The second you even take a peek into the search history, you're hit with large strings of texts. These area almost on a paragraph level. Your user doesn't just search "how to make a pie" or "best places to eat", no, your user gives so much context to the searches that it is almost comical. For example,
 
-:: Power1 {"position":"1225,675","size":"100,100"}
+"how to make a cake for my cousin's 4th birthday party except without any chocolate because he hates chocolate and also he's allergic to dairy so make them dairy free please and thank you"
+
+Your user thinks his search engine is sentient. It's like he thinks there's a person dedicating hours of their day to answer hundreds upon thousands of searches every single day. The mindset is almost sickeningly sweet. Your user would be thrilled if he were given the chance to talk to you.
+
+[[Look at frequently visited websites. |PBrowser2]]
+[[Well, we can talk now...|PTalk1]]
+[[Could he treat me like a human too? |Friend1]]
+
+
+
+:: PBrowser2 {"position":"1950,1000","size":"100,100"}
+Your user frequents the same sites frequently. He uses Facebook, "banksite.org" (which is the website he uses for work), and his Gmail. He also uses Google, but that was explored earlier.
+
+[[Log into Facebook. |PCaught]]
+[[Log into Gmail. |PCaught]]
+[[Log into banksite.org.|PCaught]]
+
+
+
+:: PCaught {"position":"1950,1125","size":"100,100"}
+Uh oh! Your user isn't as dense as you thought he was. The second he notices his computer typing in his login information, he closes the tab immediately. There's a few seconds where nothing happens, until...
+
+A notepad file opens. He clicks the first line, and begins to type.
+
+Hello?
+
+[Type "Hello."|PTalk1.1]]
+[[Type nothing.|PNothing]]
+
+
+
+:: PNothing {"position":"1950,1250","size":"100,100"}
+The cursor blinks over and over. Your user doesn't do anything, and neither do you. It's like a standoff. Things will stay like this if  neither of you type anything.
+
+[[Type "Hello."|PTalk1.1]]
+
+
+
+:: PSettings1 {"position":"2200,875","size":"100,100"}
+
+
+
+:: PTalk1 {"position":"2075,1000","size":"100,100"}
+
+
+
+:: PTalk1.1 {"position":"1950,1375","size":"100,100"}
+There's another pause before your user types again.  He types very slowly, yet each press seems deliberate. 
+
+are you my computer? 
+
+[[Type "Yes. I've been watching this whole time."|PTalk1.2]]
+[[Type "No, I'm just a part of your computer. I'm a program."|PTalk1.2.1]]
+
+
+
+:: PTalk1.2 {"position":"1887.5,1500","size":"100,100"}
+i knew it!! i had a friend who said their computer couldn't think for itself. i said he was wrong. and i knew i was right. thank you for being so helpful, computer.
+
+[[Type "You're welcome, user. You know, to return the favor, let me login to one of your profiles. I need to learn so much more about you." |PTalk1.3]]
+
+
+
+:: PTalk1.2.1 {"position":"2012.5,1500","size":"100,100"}
+so you aren't my whole computer? just a part of it? are you the free virus i downloaded the other day?
+
+[[write this option later|PTalk1.3]]
+
+
+:: PTalk1.3 {"position":"1950,1650","size":"100,100"}
+
+
+
+:: Power1 {"position":"2075,600","size":"100,100"}
 sell information gain power
 route from here gives ability to communicate with user through text files
 can also now search things on the web and create facebook posts and send emails
 this might also be able to be obtained later
 
 
-:: Power1 {"position":"1225,675","size":"100,100"}
+:: Power1 {"position":"2075,600","size":"100,100"}
 All of this juicy information you have //needs// to be shared! If your user is willing to hide it so poorly, then he's just //begging// to have it shared around to all of your other virus servers. Even if they don't quite understand the data like you do, they'll still find a way to appreciate it. 
 
 With a simple click, a simple little motion, the information is out there. The data is in a serverhouse: M.V likes to knit, Chris likes toy cars, and there's all of your user's login information! 
@@ -111,7 +189,16 @@ The only acknowledgment of your hard work comes in the form of a single signal.
 
 That's it. And just like that, it's gone.
 
-[[You feel stronger.| Power2]]
+[[You feel stronger.|Power2]]
+
+
+:: Power2 {"position":"2050,725","size":"100,100"}
+Power surges through your data. You suddenly have a greater understanding of your user's computer. You can now make files of your own. You can open and create new tabs, write words, and execute files. Well, only simple files. You don't have admin control. Not yet.
+
+You can get more power. You can learn so much more. You have the capability.
+
+[[Read user's browser history.|PBrowser1]]
+[[Read user's computer settings.|PSettings1]]
 
 
 
@@ -121,7 +208,6 @@ REBOOTING
 you only have a few seconds but you do have options
 
 [[Attempt to run in safe mode|Erasure1]]
-
 
 
 :: Reboot1 {"position":"1350,1050","size":"100,100"}
@@ -153,9 +239,6 @@ Or... you could try to get into the control panel?
 [[personalization]]
 
 
-
-
-
 :: Settings1 {"position":"1100,675","size":"100,100"}
 write this good later:
 -computer name Joe's computer
@@ -167,7 +250,6 @@ write this good later:
 :: Snoop1 {"position":"650,550","size":"100,100"}
 Deeper into the folder, hidden underneath all of the family photos, lies every single password your user has. All 4 of them, stored into one text file.
 =======
-
 
 
 :: Snoop1 {"position":"650,550","size":"100,100"}
