@@ -11,7 +11,7 @@ Virus Game
   "tag-colors": {
     "blue": "blue"
   },
-  "zoom": 0.6
+  "zoom": 1
 }
 
 
@@ -140,12 +140,20 @@ Your user frequents the same sites frequently. He uses Facebook, "banksite.org" 
 
 
 
-:: PBrowserHub {"position":"1850,1900","size":"100,100"}
+:: PBrowserHub {"position":"1950,1950","size":"100,100"}
 The same 3 websites meet you again. They look just as inviting as they did before.
 
 [[Log into Facebook. |PFacebook]]
 [[Log into Gmail. |PGmail]]
 [[Log into banksite.org.|PWork]]
+
+
+
+:: PBrowserHub2 {"position":"1975,2450","size":"100,100"}
+You have stored all of the personal bank information in your own notepad document. There is still more to see, more to reveal. You've almost completed your ultimate goal.
+
+[[Login to Facebook.|PUFacebook]]
+[[Login to Gmail.|PUGmail]]
 
 
 
@@ -161,29 +169,51 @@ Hello?
 
 
 
-:: PDadEmail {"position":"2100,2150","size":"100,100"}
+:: PDadEmail {"position":"2400,2150","size":"100,100"}
 
 
 
-:: PFacebook {"position":"1850,2025","size":"100,100"}
+:: PFStore {"position":"2000,2800","size":"100,100"}
+You have stored all of the personal bank information in your own notepad document. There is still more to see, more to reveal. You've almost completed your ultimate goal.
+
+[[Login to Gmail.|PUGmail]]
+[[Login to Facebook.|PUFacebook]]
+[[You have all of the information you need already. (This will end the game).|PUFinale]]
+
+
+:: PFacebook {"position":"1950,2125","size":"100,100"}
+Through your user's facebook login, you finally learn his name: Joesph V. Somehow, his last name is a single letter. 
+
+His Facebook feed is rather normal. As you scroll, you can only find various food recipes, cute animal videos, and sometimes a DIY craft tutorial that ends up making something completely useless.
+
+You also notice he has multiple messages open with a Janice V, a Jared V, and a Sandy Vee.
+
+[[Look at Joesph's profile.|PProfile]]
+[[Read Joseph's messages.|PMessages]]
+[[Look at other websites.|PBrowserHub]]
 
 
 
-:: PFinish {"position":"1950,1775","size":"100,100"}
+:: PFinish {"position":"1950,1800","size":"100,100"}
 Your user doesn't respond to your message. You close the notepad without saving. The computer is yours now for an extended period of time. All of this is yours.
 
 [[Read user's computer settings.|PSettings1]]
 [[Return to the browser.|PBrowserHub]]
 
 
-:: PGmail {"position":"1975,2025","size":"100,100"}
+:: PGmail {"position":"2300,2025","size":"100,100"}
 Surprisingly, your user hasn't received many emails. Most of them are login codes for his work website, yet there are a few emails from family members. Those ones are starred.
 
 [[**Janice V** My boy's first ever email...|PMomEmail]]
 [[**Jared V** Grocery list|PDadEmail]]
+[[Look at other websites.|PBrowserHub]]
 
 
-:: PMomEmail {"position":"1975,2150","size":"100,100"}
+:: PMessages {"position":"2050,2250","size":"100,100"}
+
+
+
+:: PMomEmail {"position":"2275,2150","size":"100,100"}
 
 
 
@@ -194,7 +224,25 @@ The cursor blinks over and over. Your user doesn't do anything, and neither do y
 
 
 
-:: PSettings1 {"position":"2200,875","size":"100,100"}
+:: PProfile {"position":"1850,2250","size":"100,100"}
+Your user didn't fail to forget anything on his user profile. Every little category has been filled out. His profile photo is a professional headshot. He's wearing a white button up and a blue tie with a checkered pattern on it. His dorky smile practially stretchse across his face. His profile banner is a stock photo of the ocean. You can still see the watermark on it.
+
+Underneath his profile photo, there is more information:
+
+*Account Manager at Big Bank Inc
+*Born on September 7h, 2003
+*From Brainerd, Minnesota
+*Not in a relationship
+
+His posts are relatively normal. They are all old pictures of him and his parents with long sappy messages about how much he loves them and how much of an inspiration they are to him. 
+
+[[Return to Facebook homepage.|PFacebook]]
+[[Read his messages.|PMessages]]
+
+
+
+
+:: PSettings1 {"position":"2300,900","size":"100,100"}
 You attempt to pull up the PC name--
 .
 .
@@ -210,8 +258,9 @@ Storage: 128
 
 That explains it, this laptop is from an era before you could even 💀 at it's age and have it mean anything.
 
-The only thing that might be worth your attention right now is their massive reserve of unused storage.
+The only thing that might be worth your attention right now is their massive reserve of unused storage. That means there's lots more room for creating your own files.
 
+[[Return to the browser.|PBrowserHub]]
 
 
 :: PTalk1 {"position":"2100,1000","size":"100,100"}
@@ -258,8 +307,95 @@ Oh, he's so naive. He's just going to let you do this. He's letting you roam fre
 [[Type: "Thank you, user."|PFinish]]
 
 
-:: PWork {"position":"1725,2025","size":"100,100"}
+:: PUDadEmail {"position":"2400,2700","size":"100,100"}
 
+
+
+:: PUFacebook {"position":"1600,2575","size":"100,100"}
+Through your user's facebook login, you finally learn his name: Joesph V. Somehow, his last name is a single letter. 
+
+His Facebook feed is rather normal. As you scroll, you can only find various food recipes, cute animal videos, and sometimes a DIY craft tutorial that ends up making something completely useless.
+
+You also notice he has multiple messages open with a Janice V, a Jared V, and a Sandy Vee.
+
+[[Look at Joesph's profile.|PUProfile]]
+[[Read Joseph's messages.|PUMessages]]
+[[Look at other websites.|PBrowserHub2]]
+
+
+
+:: PUFinale {"position":"2000,3000","size":"100,100"}
+
+
+
+:: PUGmail {"position":"2325,2550","size":"100,100"}
+Surprisingly, your user hasn't received many emails. Most of them are login codes for his work website, yet there are a few emails from family members. Those ones are starred.
+
+[[**Janice V** My boy's first ever email...|PUMomEmail]]
+[[**Jared V** Grocery list|PUDadEmail]]
+[[Look at other websites.|PBrowserHub2]]
+
+
+:: PUMessages {"position":"1825,2700","size":"100,100"}
+[[Read his profile page.|PUProfile1]]
+
+
+
+:: PUMessages1 {"position":"1700,2700","size":"100,100"}
+
+[[Store the information you've learned.|PFStore]]
+
+
+:: PUMomEmail {"position":"2250,2700","size":"100,100"}
+
+
+
+:: PUProfile {"position":"1350,2700","size":"100,100"}
+Your user didn't fail to forget anything on his user profile. Every little category has been filled out. His profile photo is a professional headshot. He's wearing a white button up and a blue tie with a checkered pattern on it. His dorky smile practially stretchse across his face. His profile banner is a stock photo of the ocean. You can still see the watermark on it.
+
+Underneath his profile photo, there is more information:
+
+*Account Manager at Big Bank Inc
+*Born on September 7h, 2003
+*From Brainerd, Minnesota
+*Not in a relationship
+
+His posts are relatively normal. They are all old pictures of him and his parents with long sappy messages about how much he loves them and how much of an inspiration they are to him. 
+
+[[Return to Facebook homepage.|PUFacebook]]
+[[Read his messages.|PUMessages1]]
+
+
+
+:: PUProfile1 {"position":"1525,2700","size":"100,100"}
+Your user didn't fail to forget anything on his user profile. Every little category has been filled out. His profile photo is a professional headshot. He's wearing a white button up and a blue tie with a checkered pattern on it. His dorky smile practially stretchse across his face. His profile banner is a stock photo of the ocean. You can still see the watermark on it.
+
+Underneath his profile photo, there is more information:
+
+*Account Manager at Big Bank Inc
+*Born on September 7h, 2003
+*From Brainerd, Minnesota
+*Not in a relationship
+
+His posts are relatively normal. They are all old pictures of him and his parents with long sappy messages about how much he loves them and how much of an inspiration they are to him. 
+
+[[Store the information you've learned.|PFStore]]
+
+
+:: PUpgrade {"position":"1550,2200","size":"100,100"}
+
+[[Gain more information.|PBrowserHub2]]
+
+
+:: PWork {"position":"1550,2025","size":"100,100"}
+Before you enter officially, the website asks to verify your login via  code sent to your user's email. It's good to know there's some level of security with this place. After you input the code, you're in.
+
+This website hasn't been updated in a long, long time. The interface is just a little bit too small, the buttons sometimes lead to broken webpages; however, the most important button still works; ***Acesses Accounts***.
+
+Your user manages a number accounts for this bank. With a simple click, you can see hundreds of names, dollar amounts,, routing numbers, passwords, emails-- it's limitless. You have it all. 
+
+[[Think of all the power you could get.|PUpgrade]]
+[[Look at the other websites.|PBrowserHub]]
 
 
 :: Power1 {"position":"2075,600","size":"100,100"}
@@ -339,7 +475,7 @@ Deeper into the folder, hidden underneath all of the family photos, lies every s
 
 :: Snoop1 {"position":"650,550","size":"100,100"}
 Deeper into the folder, hidden underneath all of the family photos, lies every single password your user has. All 4 of them, stored into one text file.
->>>>>>> Stashed changes
+
 
 ''Computer Password: important123''
 
