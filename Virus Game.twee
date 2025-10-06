@@ -26,35 +26,10 @@ Your user thinks his search engine is sentient. It's like he thinks there's a pe
 
 
 
-:: Browser1.1 {"position":"850,675","size":"100,100"}
-The second you even take a peek into the search history, you're hit with large strings of texts. These area almost on a paragraph level. Your user doesn't just search "how to make a pie" or "best places to eat", no, your user gives so much context to the searches that it is almost comical. For example,
-
-"how to make a cake for my cousin's 4th birthday party except without any chocolate because he hates chocolate and also he's allergic to dairy so make them dairy free please and thank you"
-
-Your user thinks his search engine is sentient. It's like he thinks there's a person dedicating hours of their day to answer hundreds upon thousands of searches every single day. The mindset is almost sickeningly sweet. Your user would be thrilled if he were given the chance to talk to you.
-
-[[Look at frequently visited websites. |Browser2.1]]
-
-
-
 :: Browser2 {"position":"975,800","size":"100,100"}
 Your user frequents the same sites frequently. He uses Facebook, "banksite.org" (which is the website he uses for work), and his Gmail. He also uses Google, but that was explored earlier.
 
-[[You don't have the information to login to any of his accounts.|Hub1]]
-
-
-:: Browser2.1 {"position":"850,800","size":"100,100"}
-Your user frequents the same sites frequently. He uses Facebook, "banksite.org" (which is the website he uses for work), and his Gmail. He also uses Google, but that was explored earlier.
-
-[[Log into Facebook. |Caught]]
-[[Log into Gmail. |Caught]]
-[[Log into banksite.org.|Caught]]
-
-//note, this mirrors the ending i'm writing, i won't write it unless you need me to. basically, Joe notices the virus trying to login into his personal websites and asks the virus about it. you can send the user back to the hub2 at the end, since at this point, the virus isn't completely malicous.
-
-
-:: Caught {"position":"850,925","size":"100,100"}
-
+[[You don't have the power to login to any of his accounts right now.|Hub1]]
 
 
 :: Chat {"position":"1225,925","size":"100,100"}
@@ -100,7 +75,7 @@ Ignoring the treasure trove of personal information, you decide your efforts are
 :: Hub2 {"position":"1100,550","size":"100,100"}
 You've successfully depleted the personal information folder for all of its natural resources. What a true pioneer you are! Although- what good is a pioneer if he doesn't look for more worlds to conquer? 
 
-[[Look at browser history. |Browser1.1]]
+[[Look at browser history. |Browser1]]
 [[Look at computer settings. |Settings1]]
 [[Send personal family information to other users.|Power1]]
 
@@ -170,11 +145,28 @@ Hello?
 
 
 :: PDadEmail {"position":"2400,2150","size":"100,100"}
+The email is from a jaredv1232@gmail.com . The subject line reads "Grocery List".
+
+*Grocery List
+*Dog food
+*Dog bed
+*Milk
+*Eggs
+*Flour
+*Cereal
+*Dog treats
+*Almond milk
+*Birthday present for Joe
+
+That was all he wrote. Oh well, good information for advertisers. And you have an email address, too.
+
+[[Go back to the imbox.|PGmail]]
 
 
 
-:: PFStore {"position":"2000,2800","size":"100,100"}
-You have stored all of the personal bank information in your own notepad document. There is still more to see, more to reveal. You've almost completed your ultimate goal.
+
+:: PFStore {"position":"2000,2775","size":"100,100"}
+You have added all of the personal information you've gathered in your own notepad document. There is still more to see, more to reveal. You've almost completed your ultimate goal.
 
 [[Login to Gmail.|PUGmail]]
 [[Login to Facebook.|PUFacebook]]
@@ -197,7 +189,7 @@ You also notice he has multiple messages open with a Janice V, a Jared V, and a 
 :: PFinish {"position":"1950,1800","size":"100,100"}
 Your user doesn't respond to your message. You close the notepad without saving. The computer is yours now for an extended period of time. All of this is yours.
 
-[[Read user's computer settings.|PSettings1]]
+[[Read user's computer settings.|PSettings2]]
 [[Return to the browser.|PBrowserHub]]
 
 
@@ -210,11 +202,31 @@ Surprisingly, your user hasn't received many emails. Most of them are login code
 
 
 :: PMessages {"position":"2050,2250","size":"100,100"}
+Looking through the messages, you gather that Janice V is your user's mother, and Jared V is your user's father. Sandy Vee is his cousin that he is close with. 
 
+Janice sends lots of pictures of dogs and many sappy messages about how much she loves your user and how proud she is. From the images, you can tell that Janice owns three dogs, Connie the chuihaha, Mutt the bulldog, and Cocoa the daschund. She talks about them as much as she does her own son. Your user sends just as sappy messages to her.
+
+Jared's messages are few and far between. Sometimes he'll go on a sending spree of messages, which are mostly him asking about what your user has been up to. Sometimes he asks where certain things in the house are. Your user only ever replied in short messages.
+
+Finally, Sandy Vee. Your user and Sandy only ever send each other funny videos. Most of the ones your user sends involve animals, while Sandy sends epic fail compiliations. 
+
+There isn't a lot to be concerned about here.
+
+
+[[Return to Facebook homepage.|PFacebook]]
+[[Read his profile.|PProfile]]
 
 
 :: PMomEmail {"position":"2275,2150","size":"100,100"}
+The email is from a janicev232@gmail.com . The subject line reads "My boy's very first email..."
 
+* Dear Joe, it's been so hard watching you grow up. I remember when you were just born, and you were no bigger than Lassie. You don't remember Lassie much, but she helped me and your father raise you when you were a toddler. I think a lot of her spirit went into you. You're nice, kind, and always willing to help out. Just like Lassie did... and now you're all grown up and working your very own computer. Your dear old mom is still trying to figure this whole thing out. I'm hoping this email actually reaches your mailbox. Love you always, Mom.
+
+How sweet.
+
+This doesn't tell you much though.
+
+[[Go back to inbox.|PGmail]]
 
 
 :: PNothing {"position":"1950,1250","size":"100,100"}
@@ -242,7 +254,7 @@ His posts are relatively normal. They are all old pictures of him and his parent
 
 
 
-:: PSettings1 {"position":"2300,900","size":"100,100"}
+:: PSettings1 {"position":"2375,900","size":"100,100"}
 You attempt to pull up the PC name--
 .
 .
@@ -260,7 +272,28 @@ That explains it, this laptop is from an era before you could even 💀 at it's 
 
 The only thing that might be worth your attention right now is their massive reserve of unused storage. That means there's lots more room for creating your own files.
 
-[[Return to the browser.|PBrowserHub]]
+[[Look at browser history..|PBrowser1]]
+
+
+:: PSettings2 {"position":"2525,900","size":"100,100"}
+You attempt to pull up the PC name--
+.
+.
+.
+Success, you're in! 
+The PC took a concerning amount of time to load its specs.
+
+Computer Name: Joe's Dell Latitude 3190
+Processor: Intel Celeron 4 Core
+Installed Ram: 8 GB
+Graphics: Intel UHD graphics 600
+Storage: 128
+
+That explains it, this laptop is from an era before you could even 💀 at it's age and have it mean anything.
+
+The only thing that might be worth your attention right now is their massive reserve of unused storage. That means there's lots more room for creating your own files.
+
+[[Return to the Browser.|PBrowserHub]]
 
 
 :: PTalk1 {"position":"2100,1000","size":"100,100"}
@@ -297,7 +330,7 @@ so you aren't my whole computer? just a part of it? are you the free virus i dow
 [[Type "Yes, yes I am. I'm a helpful little program that wants to learn so much about the world. To do that, I need to learn through you, user."|PTalk1.3]]
 
 
-:: PTalk1.3 {"position":"1950,1650","size":"100,100"}
+:: PTalk1.3 {"position":"1925,1650","size":"100,100"}
 Your user doesn't hesitate to respond. 
 
 of course! i would love to help you out more. i can leave you on while i go run errands so you can do whatever you'd like.
@@ -307,7 +340,23 @@ Oh, he's so naive. He's just going to let you do this. He's letting you roam fre
 [[Type: "Thank you, user."|PFinish]]
 
 
-:: PUDadEmail {"position":"2400,2700","size":"100,100"}
+:: PUDadEmail {"position":"2425,2700","size":"100,100"}
+The email is from a jaredv1232@gmail.com . The subject line reads "Grocery List".
+
+*Grocery List
+*Dog food
+*Dog bed
+*Milk
+*Eggs
+*Flour
+*Cereal
+*Dog treats
+*Almond milk
+*Birthday present for Joe
+
+That was all he wrote. Oh well, good information for advertisers. And you have an email address, too.
+
+[[Go back to the imbox.|PUGmail]]
 
 
 
@@ -325,29 +374,108 @@ You also notice he has multiple messages open with a Janice V, a Jared V, and a 
 
 
 :: PUFinale {"position":"2000,3000","size":"100,100"}
+You immediately send out all of the information to a wider server. You can feel the power surging through your code. The feeling is almost overwhelming. All of the power is being directly sent to your small file size. 
+
+You're going to overload yourself if you don't do something soon.
+
+[[Duplicate yourself.|PUFinale2]]
+
+
+:: PUFinale2 {"position":"2000,3125","size":"100,100"}
+Like a cell, you create an identical version of yourself. Your clone does the same. Soon, there are hundreds of you all throughout the user's computer. Each version of yourself covers the ground you couldn't. One of you gains the bright idea to write emails and messages to everyone Joe is in contact with. Some of you hop into the emails and messages to be sent away.
+
+You're too large for the poor antivirus in Joe's computer to stop. There's too many of you. It's way too late. In the swarm of copies of yourself, you can see your user receive emails from his employer about a largescale data breach.
+
+This all feels so good. The power doesn't stop flowing. This high is better than the last high.
+
+[[A notepad opens.|PUFinale3]]
+
+
+:: PUFinale3 {"position":"2000,3250","size":"100,100"}
+Joe frantically begins to write on the first file line.
+
+WHAT ARE YOU DOIGN???? I THOUGHT YOU WERE GOIGN TO ASSIST ME!!!!! I TREATEFD YOU SO WELLLG HOW DID OYU DO THIS??? WHAT ARE YOU REALLY?????????????????????????????????
+
+[[I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X I am 0N1X|PUFinale4]]
+
+
+:: PUFinale4 {"position":"2000,3375","size":"100,100"}
+The words sprawl across the screen so fast that Joe can't even type anything else. He closes the notepad tab. He opens a new search tab in the midst of it all. He searches
+
+"how  to stop virus qucik easy fast help"
+
+He frantically goes through each webpage. Not one of your clones try to stop Joe. You don't think he can do it. Besides, it's already too late. The damage has been done, what can he do?
+
+[[A clone is uninstalled.|PUFinale5]]
 
 
 
-:: PUGmail {"position":"2325,2550","size":"100,100"}
+:: PUFinale5 {"position":"2000,3500","size":"100,100"}
+Then another. And another. And another. Your clones are dropping like flies, and the information is being lost with them. Whatever Joe installed is absolutely wiping them out. You can't even do anything-- the program has stopped everything besides itself from running. It executes all of the clones so quickly you can hardly acknowledge it.
+
+You watch as the program reads scan complete. 
+
+You're free to do something now.
+
+Well, if you could.
+
+You created so many clones that you no longer have the ability to execute any file on your own.
+
+You have to wait for Joe to click on you again. If he ever does.
+
+[[Wait for a signal...|PuEND]]
+
+
+:: PUGmail {"position":"2350,2550","size":"100,100"}
 Surprisingly, your user hasn't received many emails. Most of them are login codes for his work website, yet there are a few emails from family members. Those ones are starred.
 
 [[**Janice V** My boy's first ever email...|PUMomEmail]]
 [[**Jared V** Grocery list|PUDadEmail]]
 [[Look at other websites.|PBrowserHub2]]
 
+[[Store this information.|PFStore]]
+
+
 
 :: PUMessages {"position":"1825,2700","size":"100,100"}
+Looking through the messages, you gather that Janice V is your user's mother, and Jared V is your user's father. Sandy Vee is his cousin that he is close with. 
+
+Janice sends lots of pictures of dogs and many sappy messages about how much she loves your user and how proud she is. From the images, you can tell that Janice owns three dogs, Connie the chuihaha, Mutt the bulldog, and Cocoa the daschund. She talks about them as much as she does her own son. Your user sends just as sappy messages to her.
+
+Jared's messages are few and far between. Sometimes he'll go on a sending spree of messages, which are mostly him asking about what your user has been up to. Sometimes he asks where certain things in the house are. Your user only ever replied in short messages.
+
+Finally, Sandy Vee. Your user and Sandy only ever send each other funny videos. Most of the ones your user sends involve animals, while Sandy sends epic fail compiliations. 
+
+There isn't a lot to be concerned about here.
+
 [[Read his profile page.|PUProfile1]]
 
 
 
 :: PUMessages1 {"position":"1700,2700","size":"100,100"}
+Looking through the messages, you gather that Janice V is your user's mother, and Jared V is your user's father. Sandy Vee is his cousin that he is close with. 
+
+Janice sends lots of pictures of dogs and many sappy messages about how much she loves your user and how proud she is. From the images, you can tell that Janice owns three dogs, Connie the chuihaha, Mutt the bulldog, and Cocoa the daschund. She talks about them as much as she does her own son. Your user sends just as sappy messages to her.
+
+Jared's messages are few and far between. Sometimes he'll go on a sending spree of messages, which are mostly him asking about what your user has been up to. Sometimes he asks where certain things in the house are. Your user only ever replied in short messages.
+
+Finally, Sandy Vee. Your user and Sandy only ever send each other funny videos. Most of the ones your user sends involve animals, while Sandy sends epic fail compiliations. 
+
+There isn't a lot to be concerned about here.
 
 [[Store the information you've learned.|PFStore]]
 
 
 :: PUMomEmail {"position":"2250,2700","size":"100,100"}
+The email is from a janicev232@gmail.com . The subject line reads "My boy's very first email..."
 
+* Dear Joe, it's been so hard watching you grow up. I remember when you were just born, and you were no bigger than Lassie. You don't remember Lassie much, but she helped me and your father raise you when you were a toddler. I think a lot of her spirit went into you. You're nice, kind, and always willing to help out. Just like Lassie did... and now you're all grown up and working your very own computer. Your dear old mom is still trying to figure this whole thing out. I'm hoping this email actually reaches your mailbox. Love you always, Mom.
+
+How sweet.
+
+This doesn't tell you much though.
+
+[[Go back to inbox.|PUGmail]]
 
 
 :: PUProfile {"position":"1350,2700","size":"100,100"}
@@ -362,7 +490,6 @@ Underneath his profile photo, there is more information:
 
 His posts are relatively normal. They are all old pictures of him and his parents with long sappy messages about how much he loves them and how much of an inspiration they are to him. 
 
-[[Return to Facebook homepage.|PUFacebook]]
 [[Read his messages.|PUMessages1]]
 
 
@@ -419,7 +546,7 @@ That's it. And just like that, it's gone.
 [[You feel stronger.|Power2]]
 
 
-:: Power2 {"position":"2050,725","size":"100,100"}
+:: Power2 {"position":"2075,725","size":"100,100"}
 Power surges through your data. You suddenly have a greater understanding of your user's computer. You can now make files of your own. You can open and create new tabs, write words, and execute files. Well, only simple files. You don't have admin control. Not yet.
 
 You can get more power. You can learn so much more. You have the capability.
@@ -427,6 +554,12 @@ You can get more power. You can learn so much more. You have the capability.
 [[Read user's browser history.|PBrowser1]]
 [[Read user's computer settings.|PSettings1]]
 
+
+
+:: PuEND {"position":"2000,3625","size":"100,100"}
+He will. One day.
+
+THE END
 
 
 :: Reboot {"position":"1225,1050","size":"100,100"}
